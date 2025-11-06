@@ -138,6 +138,14 @@ const Sidebar: React.FC<SidebarProps> = ({ open, onClose }) => {
           ModalProps={{
             keepMounted: true,
           }}
+          sx={{
+            '& .MuiDrawer-paper': {
+              width: drawerWidth,
+              boxSizing: 'border-box',
+              mt: 6,
+              height: 'calc(100vh - 64px)',
+            },
+          }}
         >
           {drawerContent}
         </Drawer>

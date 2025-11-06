@@ -20,7 +20,7 @@ const DashboardLayout: React.FC<DashboardLayoutProps> = ({
   const isMobile = useMediaQuery(theme.breakpoints.down('md'));
 
   return (
-    <Box sx={{ display: 'flex-start' }}>
+    <Box sx={{ display: 'flex' }}>
       <Header onMenuClick={onSidebarToggle} />
       <Sidebar open={sidebarOpen} onClose={onSidebarClose} />
       
