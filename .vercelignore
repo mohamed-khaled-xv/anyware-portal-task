@@ -1,9 +1,0 @@
-backend
-.git
-.gitignore
-README.md
-DEPLOYMENT_GUIDE.md
-RAILWAY_DEPLOYMENT.md
-.env
-.env.local
-.DS_Store
